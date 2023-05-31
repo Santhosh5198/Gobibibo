@@ -115,6 +115,10 @@ public abstract class Baseclass {
 			
 			r.keyPress(KeyEvent.VK_ENTER);
 		}
+		
+		public static void clicke () {
+			driver.close();
+		}
 }
 
 
